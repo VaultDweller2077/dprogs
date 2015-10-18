@@ -1,0 +1,427 @@
+
+
+.logo {
+    background-image: url(img/logo1.png);
+    height: 50px;
+    width: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    
+}
+
+.phone {
+    font-family: "AeroMaticsBold";
+    font-size: 30px;
+    float: right;
+    margin-top: 22px;
+    color: #00ccff;
+
+
+    
+
+}
+
+.basket {
+    float: left; 
+    font-size: 16px;
+    font-family: "AleksandraCRegular"; 
+}
+
+
+
+.navtop {
+    margin-top: 20px;
+    height: auto;
+    margin-left: 20px;
+    
+    
+    
+}
+
+#goods {
+   
+padding-top:32px;
+    padding-bottom: 10px;
+    margin-bottom:58px;
+    background-color: aliceblue;
+    box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
+
+
+     
+}
+
+
+.menu {
+    
+    font-family: "AleksandraCRegular"; 
+    font-size: 16px;
+    
+    
+}
+
+.menu li {
+    display: inline;
+   
+
+    
+ 
+}
+
+.menu li a {
+
+    padding: 10px 48px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.menu li a:hover {
+    border: 1px;
+    text-decoration: underline;
+   
+}
+#jimbo {
+ padding-left: 0;
+    padding-right: 0;
+    padding-top: 53px;
+    padding-bottom: 10px;
+
+}
+
+
+
+#sales_block {
+    background-image: url(img/jimbo.jpg);
+    color: #ffffff;
+    height: inherit;
+    width: inherit;
+    
+}
+
+#stroy {
+    height: 20%;
+    width: 20%;
+    float: right;
+    
+}
+
+#sales_block_header {
+   font-family: "Neouropol";
+    font-size: 48px;
+    
+}
+
+#sales_block_text {
+    font-size: 18px;
+    font-family: "AleksandraCRegular";
+}
+
+#goods_block_header {
+    text-align: center;
+    font-family: "AeroMaticsBold";
+    margin-bottom: 30px;
+    font-size: 50px;
+    
+
+}
+
+
+
+#g {
+    width: 150px;
+
+    padding: 10px;
+}
+
+#gh {
+     font-family: "AeroMaticsBold";
+}
+
+#gp {
+    font-family: "AleksandraCRegular";
+    font-size: 18px; 
+}
+
+#gb1 {
+    
+}
+
+#gb3 {
+    margin-top: 110px;
+}
+
+#gb2 {
+   
+}
+
+#company {
+    background-color: skyblue;
+    padding-top: 28px;
+box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
+    
+    
+    
+    
+    
+}
+
+
+
+#comp2 {
+   
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+    z-index:99;
+  }
+
+
+
+
+
+
+
+.comp_plus {
+    list-style-type:none;
+    margin-left: -40px;
+    
+}
+
+.comp_plus {
+    font-family: "AleksandraCRegular";
+    font-size: 19px;
+
+}
+    
+
+#map {
+   height: 400px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 1px;
+}
+
+#mapinfo {
+    text-align: center;
+    font-family: "AleksandraCRegular";
+    margin-top: -30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+#maphead {
+    background-color: aliceblue;
+  
+   
+}
+
+#qa {
+     font-family: "AleksandraCRegular";
+    
+    font-size: 16px;
+    border: 1px solid #D7D7D7;
+    border-radius:  8px;
+
+    
+    position: relative;
+    background-color: white;
+
+
+
+
+}
+
+#qa_text {
+    margin: .67em 0;
+    width: 107px;  
+}
+
+#cl {
+    font-family: "AleksandraCRegular";
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#cl_block {
+    display: inline;
+    
+   
+}
+
+.footer { 
+    margin-top: 54px;
+    background-image: url(img/header_back3.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    
+}
+
+#cl_h {
+    font-family: "AeroMaticsBoldItalic";
+}
+
+#f_h {
+    font-family: "AeroMaticsItalic";
+    font-size: 16px;
+    
+    
+}
+
+#footer_list {
+    list-style-type:none;
+    
+    
+}
+
+#f_p {
+    font-family: "AleksandraCRegular";
+}
+
+
+.flinks {
+    color: black;
+}
+
+a.flinks:hover {
+    color: black;
+}
+#copyr {
+
+    
+   text-align: center;
+    font-family: "AleksandraCRegular";
+    
+}
+
+body {
+   margin: 0; 
+  background-image: url(img/header_back1.png);
+  background-repeat: repeat-x;
+
+}
+
+.glyphicon-check {
+    font-size: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+#footer_row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+
+   }
+
+
+
+
+
+.logomin {
+    background-image: url(img/logomin.png);
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-repeat: no-repeat;
+
+}
+
+.search {
+
+   float: right;
+    margin-right: 44px;
+    
+}
+
+
+.phonepar {
+    float: right;
+    font-size: 16px;
+    font-family: "AleksandraCRegular"; 
+}
+
+.rnd-cnr {
+     border-radius:  8px;
+}
+
+.logo-toggle {
+    position: relative;
+  float: left;
+
+  background-color: transparent;
+  background-image: url(img/logomin.png);
+    height: 50px;
+    width: 50px;
+    }
+
+.navmar {
+    padding-top: 53px;
+}
+
+
+
+
+
+.srch {
+    float: right;
+}
+
+
+
+
+#myNavbar1 {
+    background-color:darksalmon;
+   
+    
+}
+
+
+
+.searchbar {
+    position: relative;
+    display: inline;
+
+   
+}
+
+
+.navbar-fixed-top{
+     padding-right: 0;
+}
+
+.navbar-inner {
+    
+}
+
+.ft_pad {
+    padding-bottom:10px;
+}
+
+.carl {
+    padding-left: 16px;
+}
+
+#clients {
+   box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
+    background-color: skyblue;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+#aq {
+    box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
+}
