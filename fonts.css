@@ -169,3 +169,10 @@
     font-style: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "EuropeExt";
+    src: url("fonts/europeext_bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
