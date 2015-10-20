@@ -1,0 +1,15 @@
+
+
+
+.soft_header {
+    font-family: "AeroMaticsBold";
+    font-size:18px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#item {
+    width: 100px;
+    padding: 10px;
+    
+}

@@ -29,6 +29,12 @@
     }
   });
 });</script>
+    <script type="text/javascript">
+           $(function(){
+    $('.carousel').carousel({
+      interval: 10000
+    });
+});</script>
     
     
     
@@ -72,8 +78,8 @@
               
               <li ><a style="margin-left:30px;margin-right:30px;" href="#clients">Наши клиенты</a></li>
               <li ><form style="margin-left:30px;margin-right:30px;" role="search" class="navbar-form navbar-right">
-                <div class="form-group">
-                    <input type="text" placeholder="Поиск" class="form-control" >
+                <div class="form-group" style="float:left;">
+                    <input type="text" placeholder="Поиск" class="form-control">
                 </div>
             </form></li> </ul>
         </div> 
@@ -259,7 +265,7 @@
               <label for="comment">Ваш вопрос</label>
               <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
-            <button type="button" class="btn btn-success btn-lg" style="margin-bottom:15px;">Отправить</button>
+            <button type="button" class="btn btn-success btn-lg" style="margin-bottom:15px;margin-left:10px;">Отправить</button>
         </div>
 
     </div>
