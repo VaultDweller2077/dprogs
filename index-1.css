@@ -13,3 +13,14 @@
     padding: 10px;
     
 }
+
+.items_nav {
+    font-family: "AeroMaticsBold";
+    font-size:18px;
+    
+    max-width: 300px;
+}
+
+.items_nav_e {
+    max-width: 300px;
+}

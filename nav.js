@@ -8,8 +8,10 @@ jQuery(document).ready(function() {
         
         if (scroll1 >= navof) {                 // Сравение 
             jQuery("nav").addClass("navbar-fixed-top");
+            jQuery("#logo").removeClass("hidden");
         } else {
             jQuery("nav").removeClass("navbar-fixed-top");
+            jQuery("#logo").addClass("hidden");
         }
 
 
