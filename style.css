@@ -156,7 +156,7 @@ padding-top:32px;
 }
 
 #company {
-    background-color: skyblue;
+    background-color: #a2def7;;
     padding-top: 28px;
 box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
     
@@ -417,11 +417,12 @@ body {
 
 .carl {
     padding-left: 16px;
+    
 }
 
 #clients {
    box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
-    background-color: skyblue;
+    background-color: #a2def7;
     margin-bottom:40px;
     margin-top:20px;
 }
@@ -433,4 +434,21 @@ body {
 #jim_h {
     font-family: "EuropeExt";
     font-size: 34px;
+}
+
+
+
+.width {
+    height:350px;
+    
+}
+
+#jim_hm {
+    font-family: "EuropeExt";
+    font-size: 24px;
+}
+
+#jim {
+    font-size: 14px;
+    font-family: "AleksandraCRegular";
 }

@@ -18,4 +18,23 @@ jQuery(document).ready(function() {
 
         
     });
+    
+    
+
+    jQuery(window).on('resize', function(){
+      var win = jQuery(this);
+      if (win.width() < 1200) { 
+
+      jQuery("#myCarousel").addClass('hide');
+      jQuery("#myCarousel1").removeClass('hide');
+          
+
+      }
+    else
+    {
+      jQuery("#myCarousel").removeClass('hide');
+      jQuery("#myCarousel1").addClass('hide');
+    }
+
+});
 });
