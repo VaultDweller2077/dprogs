@@ -29,12 +29,12 @@
     }
   });
 });</script>
- <script type="text/javascript">
+ <!--<script type="text/javascript">
            $(function(){
     $('.carousel').carousel({
       interval: 5000
     });
-});</script> 
+});</script> -->
     
     
     
@@ -73,7 +73,7 @@
               <li><a style="" href="#jimbo"><b>ГЛАВНОЕ</b></a></li>
               <li ><a style="" href="#goods"><b>ТОВАРЫ</b></a></li>
               <li ><a style="" href="#company"><b>КОМПАНИЯ</b></a></li>
-              <li ><a style="" href="#clients"><b>КЛИЕНТЫ</b></a></li>
+              <li ><a style="" href="#review"><b>КЛИЕНТЫ</b></a></li>
               <li ><form role="search" class="navbar-form">
                 <div class="form-group">
                     <input type="text" placeholder="Поиск" class="form-control">
@@ -92,7 +92,7 @@
               <li ><a style="margin-right:20px;" href="#jimbo"><b>ГЛАВНОЕ</b></a></li>
               <li ><a style="margin-right:20px;" href="#goods"><b>ТОВАРЫ</b></a></li>
               <li ><a style="margin-right:20px;" href="#company"><b>КОМПАНИЯ</b></a></li>
-              <li ><a style="margin-right:20px;" href="#clients"><b>КЛИЕНТЫ</b></a></li>
+              <li ><a style="margin-right:20px;" href="#rev"><b>КЛИЕНТЫ</b></a></li>
               <li style="float:right;padding-right:15px;"><form role="search" class="navbar-form">
                 <div class="form-group">
                     <input type="text" placeholder="Поиск" class="form-control">
@@ -284,40 +284,119 @@
  </div>
 </div>
 </div>
-<div class="container">
-   <div class="row">
-    <div class="col-md-12  rnd-cnr" id="clients">
-       <h1 id="goods_block_header" style="margin-top:50px;">Отзывы наших клиентов</h1>
-        <div class="row" id="cl_block">
-            <div class="col-md-3" style="margin-left:197px;">
-                <img src="img/bus.jpg" class="img-circle" alt="" style="height=150px;margin-top:23px;">
-            </div>
-            <div class="col-md-6">
-                <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
-                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis,<br> odit tempora excepturi ratione ex repellendus, veniam ipsa minima vel?&raquo;</p>
-            </div>
-        </div>
-        <div class="row" id="cl_block">
-            <div class="col-md-3" style="margin-left:197px;">
-                <img src="img/bus.jpg" class="img-circle" alt="" style="height=150px;margin-top:23px;">
-            </div>
-            <div class="col-md-6">
-                <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
-                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis,<br> odit tempora excepturi ratione ex repellendus, veniam ipsa minima vel?&raquo;</p>
-            </div>
-        </div>
-        <div class="row" id="cl_block">
-            <div class="col-md-3" style="margin-left:197px;">
-                <img src="img/bus.jpg" class="img-circle" alt=""  style="height=150px;margin-top:23px;">
-            </div>
-            <div class="col-md-6">
-                <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
-                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis,<br> odit tempora excepturi ratione ex repellendus, veniam ipsa minima vel?&raquo;</p>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+
+
+<div  class="carousel slide container rnd-cnr" id="rev">
+    <h1  id="goods_block_header" style="margin-bottom:0;background-color: aliceblue;">Отзывы наших клиентов</h1>
+    <div class="carousel-inner rnd-cnr" style="box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;">
+        
+        
+         <article class="item active" style="height:600px;background-color: #a2def7;">
+         
+          <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+           <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+           <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+         
+        </article>
+        
+         <article class="item" style="height:600px;background-color: #a2def7;">
+         
+          <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+           <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+           <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+         
+        </article>
+        
+        
+        <article class="item" style="height:600px;background-color: #a2def7;">
+         
+          <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+           <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+           <div class="row" style="padding-left:100px;padding-top:5px;">
+           <div class="col-md-3">
+          <img src="img/bus.jpg" id="img_client" class="img-circle"  alt="" width="20" height="20">
+           </div>
+           <div class="col-md-9" style="padding-left:100px;">
+           <h3 id="cl_h">Иван Иванов. Гендеректор ОАО "Огурцы"</h3>
+                <p id="cl">&laquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati<br> nihil corporis, soluta. Facilis quasi cupiditate non voluptatum maiores<br> accusantium ratione, facere veritatis, pariatur reiciendis harum officia odio quas <br> voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cum <br> totam maxime ad quasi maiores perferendis consequatur vitae obcaecati nobis&raquo;</p>
+           </div>
+           </div>
+         
+        </article>
+        
+                             
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#rev" data-slide-to="0" class="active"></li>
+        <li data-target="#rev" data-slide-to="1"></li>
+        <li data-target="#rev" data-slide-to="2"></li>
+      </ol>        
+      
+    </div> 
 
 
 

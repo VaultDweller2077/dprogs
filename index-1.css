@@ -24,3 +24,13 @@
 .items_nav_e {
     max-width: 300px;
 }
+
+#home_btn {
+    font-family: "AleksandraCRegular"; 
+    padding:10px;
+    border-radius: 4px;
+    background-color: skyblue;
+    font-size: 16px;
+    max-width: 300px;
+    
+}
