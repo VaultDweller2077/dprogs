@@ -258,6 +258,9 @@ box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
     background-image: url(img/header_back3.png);
     background-position: bottom;
     background-repeat: repeat-x;
+
+    
+  
     
 }
 
@@ -472,4 +475,22 @@ body {
     width: 150px;
     padding: 10px;
     margin-top: 20px;
+}
+
+.old-price {
+    font-size: 18px;
+    text-decoration:line-through;
+    font-family: "AleksandraCRegular";
+ 
+    
+}
+
+.new-price {
+    
+    font-size: 20px;
+    font-family: "AleksandraCRegular";
+}
+
+.item-footer {
+
 }

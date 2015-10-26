@@ -3,8 +3,9 @@
 
 .soft_header {
     font-family: "AeroMaticsBold";
-    font-size:18px;
+    font-size:20px;
     padding: 10px;
+    padding-top: 0;
     text-decoration: underline;
 }
 
@@ -18,19 +19,25 @@
     font-family: "AeroMaticsBold";
     font-size:18px;
     
-    max-width: 300px;
+    max-width: 315px;
 }
 
 .items_nav_e {
-    max-width: 300px;
+    max-width: 315px;
 }
 
 #home_btn {
     font-family: "AleksandraCRegular"; 
-    padding:10px;
-    border-radius: 4px;
+    
     background-color: skyblue;
     font-size: 16px;
-    max-width: 300px;
+    max-width: 315px;
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.item-btn {
+    width:100px;
     
 }
