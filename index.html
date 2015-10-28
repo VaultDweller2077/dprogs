@@ -10,10 +10,15 @@
     <link rel="stylesheet" href="carl.css">
     <script src="libs/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="libs/bootstrap/js/bootstrap.js">
+
 
     <script src="nav.js"></script>
     <script src="libs/bootstrap/js/bootstrap.js"></script>
+    <script src="libs/modal.js"></script>
+    
+    
+    
+
     
     <script type="text/javascript">$(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -28,11 +33,11 @@
       }
     }
   });
-});</script>
- <!--<script type="text/javascript">
+}); </script>
+ <!-- <script type="text/javascript">
            $(function(){
     $('.carousel').carousel({
-      interval: 5000
+      interval: 10000
     });
 });</script> -->
     
@@ -118,10 +123,15 @@
             <h2 id="jim_h">Строительный Эксперт</h2>
             <p id="sales_block_text">Программный комплекс для автоматизации сметных расчетов
           в строительстве, который отвечает самым современным  требованиям  ведения сметной документации.</p>
-            <p><a class="btn btn-info btn-lg">Заказать</a></p>
+            <p><a class="btn btn-info btn-lg font_h" data-toggle="modal" data-target="#order">Заказать прямо сейчас!</a></p>
+           
+            
+            
             </div>
           </div>
         </article>
+        
+        
         
          <article class="item">
           <img src="img/jimbo1.jpg">
@@ -129,7 +139,7 @@
             <h2 id="jim_h">Строительный Эксперт</h2>
             <p id="sales_block_text">Программный комплекс для автоматизации сметных расчетов
           в строительстве, который отвечает самым современным  требованиям  ведения сметной документации.</p>
-            <p><a class="btn btn-info btn-lg">Заказать</a></p>
+             <p><a class="btn btn-info btn-lg font_h" data-toggle="modal" data-target="#order">Заказать прямо сейчас!</a></p>
           </div>
         </article> 
         
@@ -139,18 +149,59 @@
             <h2 id="jim_h">Строительный Эксперт</h2>
             <p id="sales_block_text">Программный комплекс для автоматизации сметных расчетов
           в строительстве, который отвечает самым современным  требованиям  ведения сметной документации.</p>
-            <p><a class="btn btn-info btn-lg">Заказать</a></p>
+             <p><a class="btn btn-info btn-lg font_h" data-toggle="modal" data-target="#order">Заказать прямо сейчас!</a></p>
           </div>
          </div>
         </article> 
                              
       </div>
-      <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>        
+      </ol> 
+      
+             
+     <div class="modal" id="order">
+	  <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 class="font_h">Отправить заявку</h3>
+            <div class="font" style="font-size:15px;">Время рассмотрения не более 15 минут</div>
+        </div>
+        <div class="modal-body font">
+          <div class="form-group">
+              <label for="order_name">Ваше имя</label>
+              <input type="text" class="form-control" placeholder="Ваше имя" id="order_name">
+            </div>
+            <div class="form-group">
+              <label for="order_phone" >Ваш номер телефона</label>
+              <input type="text" class="form-control" placeholder="Ваш номер телефона" id="order_phone">
+            </div> 
+       
+            <div class="form-group">
+               <label>Выберите интересующие вас продукты</label>
+                <form role="form">
+                 <label class="checkbox-inline">
+                  <input type="checkbox" value="">Строительный эксперт
+                 </label>
+                 <label class="checkbox-inline">
+                  <input type="checkbox" value="">КС “ПИР”
+                 </label>
+                 <label class="checkbox-inline">
+                  <input type="checkbox" value="">Программы “АДЕПТ”
+                 </label>
+                  </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+          
+          <a href="#" class="btn btn-primary font">Отправить заявку</a>
+        </div>
+      </div>
+     </div>
+    </div>       
      
     </div>   
     
@@ -163,7 +214,7 @@
             <h2 id="jim_hm">Строительный Эксперт</h2>
             <p id="jim">Программный комплекс для автоматизации <br> сметных расчетов
           в строительстве, который<br> отвечает самым современным  требованиям<br>  ведения сметной документации.</p>
-            <p><a class="btn btn-info">Заказать</a></p>
+            <p><a class="btn btn-info">ЗАКАЗАТЬ СЕЙЧАС</a></p>
             </div>
           </div>
         </article>
@@ -173,7 +224,7 @@
             <h2 id="jim_hm">Строительный Эксперт</h2>
             <p id="jim">Программный комплекс для автоматизации <br> сметных расчетов
           в строительстве, который<br> отвечает самым современным  требованиям<br>  ведения сметной документации.</p>
-            <p><a class="btn btn-info">Заказать</a></p>
+            <p><a class="btn btn-info">ЗАКАЗАТЬ СЕЙЧАС</a></p>
             </div>
           </div>
         </article>
@@ -183,7 +234,7 @@
             <h2 id="jim_hm">Строительный Эксперт</h2>
             <p id="jim">Программный комплекс для автоматизации <br> сметных расчетов
           в строительстве, который<br> отвечает самым современным  требованиям<br>  ведения сметной документации.</p>
-            <p><a class="btn btn-info">Заказать</a></p>
+            <p><a class="btn btn-info">ЗАКАЗАТЬ СЕЙЧАС</a></p>
             </div>
           </div>
         </article>
@@ -215,19 +266,19 @@
              <img src="img/g1.png" id="g">
              <h2 id="gh">Начинаете бизнес с нуля?<br><br></h2>
              <p id="gp">Приобретите стартовый комплект Строительный Эксперт + Windows 8 и полностью обустройте рабочее место сметчика <br></p>
-            <button type="button" class="btn btn-primary" >Подробнее</button>
+            <button type="button" class="btn btn-primary font" >Подробнее</button>
          </div>
          <div class="col-md-4" style="margin-bottom:20px;margin-top:20px;">
              <img src="img/g2.png" id="g">
              <h2 id="gh">Хотите защитить документы от вирусов?</h2>
              <p id="gp">Закажите комплект Строительный Эксперт + Антивирус Касперского и будьте спокойны за сохранность смет<br><br></p>
-             <button type="button" class="btn btn-primary" >Подробнее</button>
+             <button type="button" class="btn btn-primary font" >Подробнее</button>
          </div>
          <div class="col-md-4" style="margin-bottom:20px;margin-top:20px;">
              <img src="img/g3.png" id="g">
              <h2 id="gh">Работаете<br> в РЖД?<br></h2>
              <p id="gp">Получите скидку при <br> покупке Строительный Эксперт <br>с базой РЖД<br><br> </p>
-            <button type="button" class="btn btn-primary">Подробнее</button> 
+            <button type="button" class="btn btn-primary font">Подробнее</button> 
         
         
           
