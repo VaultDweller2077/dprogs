@@ -197,7 +197,7 @@ box-shadow: 6px 0px 5px -3px #999, -6px 0px 5px -3px #999;
 }
     
 
-#map {
+#yamap {
    height: 400px;
     width: 100%;
     margin: 0px;
@@ -502,4 +502,16 @@ body {
 
 .font_h {
     font-family: "AeroMaticsBold";
+}
+
+.nav_active {
+    background-color: #eeeeee;
+    
+}
+
+.chk {
+    padding-left: 20px;
+    font-weight: normal;
+      vertical-align: middle;
+      cursor: pointer;
 }
